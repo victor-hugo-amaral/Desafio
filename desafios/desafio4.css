@@ -1,0 +1,79 @@
+header {
+    padding: 20px;
+    margin: 10px;
+}
+
+nav {
+    padding: 20px;
+    margin: 20px;
+}
+
+nav>a {
+    padding: 20px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link:focus {
+    color: salmon;
+    outline: 3px solid red;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.esportes::before {
+    content: ' 🏅 ';
+}
+
+.politica::before {
+    content: '🏛️ ';
+}
+
+article>p {
+    text-align: justify;
+    margin: 20px;
+    padding: 20px 15px;
+}
+
+article>p:first-child {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.titulo:hover {
+    color: pink;
+
+}
+
+ul {
+    padding: 20px;
+    margin: 20px;
+}
+
+ul>li {
+    margin: 20px;
+    padding: 10px;
+}
+
+aside>h3 {
+    padding-left: 25px;
+    margin-bottom: -25px;
+}
+footer{
+    padding: 10px;
+    margin: 10px;
+}
+footer>p{
+    text-align: justify;
+}
+.rodape:hover{
+    background-color: darkgrey;
+    color: darkviolet;
+
+}

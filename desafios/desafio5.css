@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    padding: 10px;
+    margin: 10px;
+}
+
+div{
+    margin: 10px;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 2px 3px 7px 0px black;
+}
+img:hover{
+    box-shadow: 4px 4px 8px blue;
+    transition: 02s;
+    border-radius: 20%;
+    
+}

@@ -1,0 +1,12 @@
+body{
+    background:rgb(31, 31, 31) ;
+    h1{
+        color: rgba(255, 255, 255, 0.897);
+    }
+    a{
+        color: red;
+    }
+}
+div{
+    text-align: center;
+}

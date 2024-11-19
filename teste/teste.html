@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de mídia html</title>
+</head>
+
+<body>
+    <h1>Paisagems</h1>
+    <p>Aqui vamos ter 3 paisagem de tamanhos diferentes para cada tipo de navegador</p>
+    <p>Exemplo: Notebook,celular e TV.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="/img/paisagem400.png" type="image/">
+        <source media="(max-width: 1250px )" srcset="/img/paisagem700.png" type="image/png">
+        <img src="/img/paisagem1200.png" alt="Paisagem">
+    </picture>
+
+</body>
+
+</html>

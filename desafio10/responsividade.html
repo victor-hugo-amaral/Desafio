@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 302px;
+            max-width: 865px;
+            /*
+            min-width: 302px; 
+            O valor minimo vai garantir que a caixa em questão não fique com a largura menor que 400px para telas pequenas
+            max-width: 865px;
+            O valor maximo nem seja maior que 800px (Para telas maiores)
+            */
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+
+            /*
+            width: 100%; : O width faz que a imagem ocupe 100% do conteiner. Isso facilita muito adaptação do conteudo a diversas tipos de tela 
+
+            */
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Teste de Responsividade</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis porro harum commodi! Dolor architecto
+            soluta enim atque libero. Tempora laboriosam libero omnis mollitia! Neque voluptas doloremque amet tempore
+            iusto.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque alias, quasi magni error quidem quis est
+            nihil adipisci fugit voluptatum, nobis reiciendis in atque sapiente expedita id ullam? Sint, ipsum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tempore ut harum? Vitae quasi aliquam hic
+            ducimus commodi delectus, at eveniet atque, quae sed natus nemo nostrum? Aliquid, sint explicabo?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima suscipit fugit corrupti pariatur blanditiis
+            culpa? Labore, minima assumenda ad laboriosam expedita reprehenderit deserunt veniam sunt excepturi iste
+            ipsam nihil dolorem!
+        </p>
+        <picture>
+            <source media="(max-width:818px )" srcset="imagens/android.jpg" type="image/jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam explicabo eos fuga similique
+            ducimus. Officiis explicabo voluptates illum adipisci, corrupti dicta maiores libero, dolorum nulla, ipsam
+            doloribus nemo omnis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quisquam repudiandae aperiam delectus
+            voluptates dignissimos cum omnis, itaque unde, expedita voluptatem laborum doloribus reiciendis fugit iste
+            eos accusantium? Beatae, laudantium.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus modi vitae harum laboriosam eligendi
+            necessitatibus accusamus, illum natus doloremque incidunt aut, est provident ullam dolore dolor. Repellat
+            architecto perspiciatis sit.
+        </p>
+    </main>
+
+
+</body>
+
+</html>
