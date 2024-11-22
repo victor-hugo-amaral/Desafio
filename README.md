@@ -1,4 +1,4 @@
 # desafios
- desafios do curso do Gustavo guanabara
+ Desafios do curso do Gustavo Guanabara
 
-Curso de HTML E CSS  do Gustavo Guanabara  
+Curso de HTML e CSS  do Gustavo Guanabara  
